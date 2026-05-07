@@ -14,6 +14,6 @@
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
     <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="halcyon" />
     <project name="hardware_mediatek" path="hardware/mediatek" remote="halcyon" />
-    <project name="Nothing-2A/android_packages_apps_ParanoidGlyph" path="packages/apps/ParanoidGlyph" remote="github" revision="lineage-23.2" />
-    <project name="Pong-Development/packages_apps_GlyphAdapter" path="packages/apps/GlyphAdapter" remote="github" revision="16" />
+    <project name="packages_apps_ParanoidGlyph" path="packages/apps/ParanoidGlyph" remote="halcyon" />
+    <project name="packages_apps_GlyphAdapter" path="packages/apps/GlyphAdapter" remote="halcyon" />
 </manifest>
