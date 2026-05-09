@@ -13,6 +13,7 @@
     <!-- Misc Dependencies -->
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
-    <project name="frstprjkt/hardware_samsung" path="hardware/samsung" remote="github" revision="16.2" />
-    <project name="frstprjkt/hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="github" revision="16.2" />
+    <project name="hardware_samsung" path="hardware/samsung" remote="halcyon" revision="16.2" />
+    <project name="hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="halcyon" revision="16.2" />
+    <project name="frstprjkt/hardware_samsung-extra_interfaces" path="hardware/samsung-ext/interfaces" remote="github" revision="16" />
 </manifest>
