@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Nothing Phone (2a) Plus (PacmanPro) Device Manifest for Halcyon 16.2-->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project name="device_nothing_Aerodactyl" path="device/nothing/Aerodactyl" remote="halcyon-device" />
+    <project name="device_nothing_Aerodactyl-kernel" path="device/nothing/Aerodactyl-kernel" remote="halcyon-device" />
+    <project name="vendor_nothing_Aerodactyl" path="vendor/nothing/Aerodactyl" remote="halcyon-blobs" />
+    <project name="vendor_nothing_PacmanPro" path="vendor/nothing/PacmanPro" remote="halcyon-blobs" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="halcyon" />
+    <project name="hardware_mediatek" path="hardware/mediatek" remote="halcyon" />
+    <project name="packages_apps_ParanoidGlyph" path="packages/apps/ParanoidGlyph" remote="halcyon" />
+    <project name="packages_apps_GlyphAdapter" path="packages/apps/GlyphAdapter" remote="halcyon" />
+</manifest>
